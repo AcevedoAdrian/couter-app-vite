@@ -1,5 +1,3 @@
 export function getSaludo(nombre) {
-  return "Hola " + nombre;
+  return "Hello " + nombre;
 }
-
-console.log(`Este es un texto: ${getSaludo(nombre)}  `);
