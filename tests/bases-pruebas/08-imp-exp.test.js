@@ -3,6 +3,7 @@ import {
   getHeroesByOwner,
 } from "../../src/base-pruebas/08-imp-exp";
 import heroesJSON from "../../src/data/heroes";
+
 describe("Pruebas en 08-imp-exp", () => {
   test("getHeroeById debe de retornar un heroe por ID", () => {
     const idHeroe = 1;
@@ -18,6 +19,7 @@ describe("Pruebas en 08-imp-exp", () => {
     // Esto es para saber cuando el resultado en negativo, null, undefined, null, false
     expect(hero).toBeFalsy();
   });
+  
   test("getHeroesByOwner debe de regresar heroes de DC", () => {
     const owner = "DC";
     const heroes = getHeroesByOwner(owner);
