@@ -7,7 +7,7 @@ export const FirstApp = ({ title, subTitle }) => {
 
   return (
     <>
-      <h2>My name is {title}</h2>
+      <h2>{title}</h2>
       <p>{subTitle}</p>
     </>
   );
@@ -21,5 +21,5 @@ FirstApp.propTypes = {
 FirstApp.defaultProps = {
   name: "Acevedo Adrian",
   subTitle: "Esto es un subtitulo",
-  title: "Esto es un Titulo",
+  // title: "Esto es un Titulo",
 };
